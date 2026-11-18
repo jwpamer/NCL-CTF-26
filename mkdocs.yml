@@ -1,0 +1,66 @@
+site_name: CTF Portfolio
+site_description: A technique-first portfolio of my Capture The Flag experience (National Cyber League & more).
+site_url: https://jwpamer.github.io/
+site_author: "Jordan Pamer"
+
+theme:
+  name: material
+  icon:
+    logo: material/flag-variant
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+nav:
+  - Home: index.md
+  - Experience: experience.md
+  - Skills & Tooling: skills.md
+  - Write-ups: writeups/index.md
+  - Tools: tools.md
+  - Disclosure & Privacy: disclosure.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# plugins:
+#   - search      # enabled by default; list explicitly only if you add others
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jwpamer
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/<your-handle>
