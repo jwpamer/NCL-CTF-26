@@ -1,6 +1,6 @@
 # CTF Portfolio
 
-A technique-first portfolio of my Capture The Flag experience (National Cyber League &
+A technique-first portfolio of my Capture The Flag experience (Cyber Skyline &
 more), built as a [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) site. All write-ups are
 sanitized per each competition's rules of conduct — see `docs/disclosure.md`.
 

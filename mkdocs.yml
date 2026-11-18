@@ -1,5 +1,5 @@
-site_name: CTF Portfolio
-site_description: A technique-first portfolio of my Capture The Flag experience (National Cyber League & more).
+site_name: Jordan W. Pamer
+site_description: A technique-first portfolio of my Capture The Flag experience (Cyber Skyline & more).
 site_url: https://jwpamer.github.io/
 site_author: "Jordan Pamer"
 
@@ -34,6 +34,7 @@ theme:
 
 nav:
   - Home: index.md
+  - About: about.md
   - Experience: experience.md
   - Skills & Tooling: skills.md
   - Write-ups: writeups/index.md

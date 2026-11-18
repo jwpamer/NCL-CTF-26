@@ -27,7 +27,7 @@ Copy this into a new `docs/writeups/<name>.md` and add it to the nav:
 ```markdown
 # <Technique / Concept> — <Domain>
 
-**Context:** NCL (generalized) / self-authored demo
+**Context:** Cyber Skyline (generalized) / self-authored demo
 **Difficulty:** ★★★☆☆
 
 ## The Problem (generalized)

@@ -1,7 +1,7 @@
 # 🔒 Disclosure & Privacy
 
-I compete under each event's rules of conduct — including the **NCL Code of Conduct /
-Ethical Behavior policy**, which governs sharing and unauthorized assistance. To honor
+I compete under each event's rules of conduct — including **Cyber Skyline's terms and
+the competition's code of conduct**, which govern sharing and unauthorized assistance. To honor
 that — and to avoid spoiling challenges that may be reused — every write-up here follows
 these rules:
 

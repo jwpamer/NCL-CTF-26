@@ -1,31 +1,23 @@
-# 🚩 CTF Portfolio
+# Jordan W. Pamer
 
-> A technique-first record of my Capture The Flag experience, centered on the
-> **National Cyber League (NCL)**. It shows *how I approach problems* across multiple
-> cybersecurity domains — without reproducing any competition's protected content.
+> **Cybersecurity student · CTF player · U.S. Marine Corps veteran**
+> Welcome to my cybersecurity portfolio — a record of the events I've participated in
+> and the skills I'm building along the way.
 
 ---
 
-## About
+## About me
 
-I'm a cybersecurity student / CTF player who competes in the **National Cyber League**,
-a collegiate CTF spanning eight domains: OSINT, Cryptography, Password Cracking, Log
-Analysis, Network Traffic Analysis, Forensics, Web Application Exploitation, and
-Scanning & Enumeration.
+My path into cybersecurity didn't start in a classroom. After serving in the **United
+States Marine Corps**, I'm now pursuing a **B.S. in Cybersecurity at SANS.edu**, where
+I hold the **GFACT, GSEC, and GCIH** certifications.
 
-This site is a professional portfolio. For recruiters it summarizes the skills I've
-exercised under time pressure; for fellow players it offers **sanitized,
-methodology-focused notes** that respect each competition's rules of conduct
-(see [Disclosure & Privacy](disclosure.md)).
+What drew me here was time spent around my father — surrounded by electronics, watching
+him repair machines and clear infections from people's computers — and my uncle, who I'd
+often find exploring systems and running Linux. That curiosity is what I get to pursue
+every day now.
 
-- **Most-documented strengths:** OSINT · Log Analysis · Password Cracking · Cryptography · Network Traffic
-- **How I work:** read the prompt carefully, identify the problem *class*, pick the right
-  tool, and debug methodically when an attack "fails" (often it's a parsing/setup issue,
-  not the method).
-- **Looking for:** [e.g. SOC analyst / blue-team / detection engineering / CTI roles — edit or delete].
-
-!!! info "Contact"
-    [LinkedIn](#) · [Email](#) · [GitHub](https://github.com/jwpamer) *(fill these in)*
+[Read my full background →](about.md){ .md-button }
 
 ---
 
@@ -33,9 +25,14 @@ methodology-focused notes** that respect each competition's rules of conduct
 
 <div class="grid cards" markdown>
 
-- :material-trophy: **[Experience](experience.md)** — competitions, formats, and highlights
+- :material-account: **[About / Background](about.md)** — my story, education, certifications, and work history
+- :material-trophy: **[Experience](experience.md)** — Cyber Skyline Fall 2026 (Individual + Team) with Scouting Reports
 - :material-tools: **[Skills & Tooling](skills.md)** — domains, techniques, and tools
 - :material-file-document-edit: **[Write-ups](writeups/index.md)** — sanitized, technique-first solves
+- :material-wrench: **[Tools](tools.md)** — original password-cracking scripts
 - :material-shield-lock: **[Disclosure & Privacy](disclosure.md)** — how and why content is sanitized
 
 </div>
+
+!!! info "Contact"
+    [GitHub](https://github.com/jwpamer) · [LinkedIn](#) · [Email](#) *(fill LinkedIn/email when ready)*
