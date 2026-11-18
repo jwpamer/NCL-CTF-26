@@ -7,6 +7,11 @@ My journey with education started inside the Marine Corps where I wanted to get 
 ## Education
 I am currently a student at SANS edu acquiring a bachelor degree in Cyber Security.
 
+## Certifications
+GIAC Foundational Cyber Security Tachnologies (GFACT) 20260531
+GIAC Security Essentials Certification (GSEC) 20260731
+GIAC Certified Incident Handler (GCIH) 20260930
+
 ## Work History
 My previous history before getting into Cyber Security was extensive with the United States Marine Corps for I started as a Supply Administrative Sepcialist and ended my career as a Marine Security Guard. 
 
