@@ -38,7 +38,7 @@ nav:
   - Experience: experience.md
   - Skills & Tooling: skills.md
   - Write-ups: writeups/index.md
-  - Tools: tools.md
+  - Password-Cracking Method: tools.md
   - Disclosure & Privacy: disclosure.md
 
 markdown_extensions:

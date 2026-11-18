@@ -5,16 +5,11 @@
 | Domain | Techniques I've applied | Tools |
 |---|---|---|
 | **OSINT** | Image & metadata analysis, barcode/standards lookups (e.g. GS1), public-record and search-operator research, methodical guess-economy under limited attempts | Search engines, reverse image search, metadata/EXIF inspection |
-| **Password Cracking** | Algorithm identification, dictionary + rule/mask/combinator/hybrid attacks, l33t-speak mutation spaces, encrypted-vault (KeePass) key recovery, Unicode/UTF-8 byte-level cracking, keyspace/feasibility analysis | `hashcat`, `John the Ripper`, `princeprocessor`, `pykeepass`, **custom Python crackers I wrote** |
+| **Password Cracking** | Algorithm identification, dictionary + rule/mask/combinator/hybrid attacks, l33t-speak mutation spaces, encrypted-vault (KeePass) key recovery, Unicode/UTF-8 byte-level cracking, keyspace/feasibility analysis | `hashcat`, `John the Ripper`, `princeprocessor`, `pykeepass` |
 | **Cryptography** | Encoding analysis, XOR, multi-step decoding recipes, hash/collision concepts | `CyberChef`, Python |
 | **Log Analysis** | Log parsing & timeline reconstruction, event correlation, anomaly hunting | CLI text processing, `Zeek`, `grep`/`awk`/`jq` |
 | **Network Traffic** | PCAP analysis, protocol inspection, extracting artifacts from captures | `Wireshark` / `tshark` |
 | **Also engaged** (less documented) | Forensics, Web App Exploitation, Scanning & Enumeration | `YARA`, `Burp Suite`, `nmap` *(trim any you haven't used in earnest)* |
-
-!!! tip "Custom tooling"
-    I built two password-cracking tools for the Team Game — a l33t-speak substitution
-    cracker and a companion that emits hashcat `.dict`/`.rule` pairs so the same attack
-    scales on the GPU. See **[Tools](tools.md)**.
 
 ---
 

@@ -29,7 +29,7 @@ every day now.
 - :material-trophy: **[Experience](experience.md)** — Cyber Skyline Fall 2026 (Individual + Team) with Scouting Reports
 - :material-tools: **[Skills & Tooling](skills.md)** — domains, techniques, and tools
 - :material-file-document-edit: **[Write-ups](writeups/index.md)** — sanitized, technique-first solves
-- :material-wrench: **[Tools](tools.md)** — original password-cracking scripts
+- :material-wrench: **[Password-Cracking Method](tools.md)** — attack-selection and workflow cheat-sheet
 - :material-shield-lock: **[Disclosure & Privacy](disclosure.md)** — how and why content is sanitized
 
 </div>

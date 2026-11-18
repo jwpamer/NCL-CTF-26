@@ -10,9 +10,9 @@ these rules:
 2. **Nothing copied verbatim.** No encoded strings, hashes, file names, or recovered secrets
    from any challenge appear in this repository.
 3. **No teammate content.** Team-game specifics and anything attributable to teammates are
-   excluded; only my own tooling and generalized methodology are shown.
-4. **Reconstruct, don't reproduce.** Where an example helps, I use a small, self-authored
-   demo illustrating the concept.
+   excluded; only generalized methodology is shown.
+4. **Reconstruct, don't reproduce.** Where an example helps, I use a minimal,
+   non-identifying illustration of the concept.
 
 !!! note
     No proprietary competition content is reproduced here. If you believe anything
@@ -22,6 +22,6 @@ these rules:
 
 ## License
 
-Write-ups and notes © Jordan Pamer. Original code in `tools/` is released under the
+Write-ups and notes © Jordan Pamer, released under the
 [MIT License](https://github.com/jwpamer/jwpamer.github.io/blob/main/LICENSE).
 No third-party or competition-provided challenge content is included or redistributed.

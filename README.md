@@ -1,14 +1,41 @@
-# CTF Portfolio
+# Jordan W. Pamer — Cybersecurity Portfolio
 
-A technique-first portfolio of my Capture The Flag experience (Cyber Skyline &
-more), built as a [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) site. All write-ups are
-sanitized per each competition's rules of conduct — see `docs/disclosure.md`.
+**Cybersecurity student · CTF player · U.S. Marine Corps veteran**
 
-## Live site
+A technique-first portfolio of my Capture The Flag experience (Cyber Skyline & more).
+All write-ups are sanitized per each competition's rules of conduct.
 
-> After you deploy: **https://jwpamer.github.io/**
+### 🔗 **[View the live site → jwpamer.github.io](https://jwpamer.github.io/)**
 
-## Develop locally
+---
+
+## About me
+
+My path into cybersecurity didn't start in a classroom. After serving in the **United
+States Marine Corps**, I'm now pursuing a **B.S. in Cybersecurity at SANS.edu**, where I
+hold the **GFACT, GSEC, and GCIH** certifications.
+
+## Explore
+
+- **[About / Background](https://jwpamer.github.io/about/)** — my story, education, certifications, and work history
+- **[Experience](https://jwpamer.github.io/experience/)** — Cyber Skyline Fall 2026 (Individual + Team) with Scouting Reports
+- **[Skills & Tooling](https://jwpamer.github.io/skills/)** — domains, techniques, and tools
+- **[Write-ups](https://jwpamer.github.io/writeups/)** — sanitized, technique-first solves
+- **[Password-Cracking Method](https://jwpamer.github.io/tools/)** — attack-selection and workflow cheat-sheet
+- **[Disclosure & Privacy](https://jwpamer.github.io/disclosure/)** — how and why content is sanitized
+
+## Contact
+
+[GitHub](https://github.com/jwpamer) · [LinkedIn](https://www.linkedin.com/in/)
+
+---
+
+<details>
+<summary>Building this site locally (for reference)</summary>
+
+This portfolio is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+A GitHub Actions workflow (`.github/workflows/deploy.yml`) builds and publishes the site on
+every push to `main`.
 
 ```bash
 python3 -m venv .venv
@@ -19,29 +46,11 @@ mkdocs serve        # live preview at http://127.0.0.1:8000
 mkdocs build        # render static site into ./site
 ```
 
-## Deploy to GitHub Pages
+Content lives in `docs/` (Markdown); site configuration is in `mkdocs.yml`.
 
-This repo includes a workflow (`.github/workflows/deploy.yml`) that builds and publishes
-the site on every push to `main`. One-time setup: in your repo's **Settings → Pages**,
-set **Source = GitHub Actions**. (Or run `mkdocs gh-deploy` locally.)
-
-## Layout
-
-```
-ctf-portfolio/
-├── mkdocs.yml            # site config (Material theme, nav)
-├── docs/                 # site content (Markdown)
-│   ├── index.md
-│   ├── experience.md
-│   ├── skills.md
-│   ├── writeups/
-│   ├── tools.md
-│   └── disclosure.md
-├── tools/                # my original password-cracking tools
-└── requirements.txt
-```
+</details>
 
 ## License
 
-Original code and write-ups © Jordan Pamer, MIT License (see `LICENSE`). No competition-
-provided challenge content is included.
+Write-ups and notes © Jordan Pamer, MIT License (see [`LICENSE`](LICENSE)).
+No competition-provided challenge content is included.
